@@ -81,7 +81,7 @@ router.put('/:id', (req, res) => {
       );
       return;
     }
-    res.json(updateTags);
+    res.json(updateTag);
   }).catch((err) => {
     console.log(err);
     res.status(400).json(err);
